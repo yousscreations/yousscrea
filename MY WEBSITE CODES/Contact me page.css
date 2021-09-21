@@ -1,0 +1,310 @@
+html {background-color: #242424;
+color: white;
+font-family: Montserrat, sans-serif;
+
+}
+
+body {
+	padding-left: 70px;
+padding-right: 70px;
+box-sizing: border-box;
+}
+
+ header {
+ 	padding-left: 70px;
+ 	padding-right: 40px;
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	background-color: #1C1C1C;
+	display: flex;
+	height: 70px;
+	box-sizing: border-box;
+	position: absolute;
+}
+
+/* site nav */
+
+.sitenav a {
+	text-decoration: none;
+	color: white;
+	padding: 25px 30px; 
+	transition-duration: 0.4s;
+	
+}
+
+.sitenav a:hover {
+	background-color: #602498;
+}
+
+
+.sitenav ul {
+	font-size: 120%;
+	font-weight: 850;
+
+}
+
+.sitenav li {
+	margin-bottom: 25px;
+	list-style: none;
+	float: left;
+}
+
+.active {
+	background-color: #410C73;
+
+}
+
+.text2  {
+	position: absolute;
+	font-size: 40px;
+	font-weight: 900;
+	top: 10px;
+	text-align:  center;
+	left: -20px;
+
+}
+
+.parent2  {
+	position: relative ;
+	
+	left: 30px;
+	top: 120px;
+	width: 600px;
+	 }
+
+
+
+
+.containers3 a{
+color: white;
+}
+
+
+.containers3 {
+
+
+ 
+    background-color: ;
+    height: 545px;
+    width: 1000 px;
+    margin-top: 180px;
+    bottom: 0;
+    
+
+}
+
+.col1 {
+	width: 655px; height: 545px;
+	background-color: ;
+	opacity: 100%;
+	margin: 0px;
+	margin-top: 0;
+	float: left;
+}
+
+.col2 {
+	background-color: ;
+		width: 655px; height: 545px;
+	opacity: 100%;
+	margin-right: 0;
+	margin-top: 0;
+	float: right;
+
+}
+
+
+
+
+.contactmetext {
+	font-family: Montserrat, sans-serif;
+	font-size: 17px;
+	padding: 10px;
+	padding-left: 20px;
+	width: 655px;
+	height:55px ;
+	background-color: #1C1C1C;
+	color: white;
+	margin-bottom: 20px;
+	border-radius: 350px;
+	box-sizing: border-box;
+	border: none;
+	border-color: #5F2396;
+
+}
+
+input:focus { 
+    outline: none !important;
+    box-shadow: 0 0 2px 1px #5F2396;
+}
+
+textarea:focus { 
+    outline: none !important;
+    box-shadow: 0 0 2px 1px #5F2396;
+}
+
+
+.contactmetext1 {
+	font-family: Montserrat, sans-serif;
+	font-size: 17px;
+	padding: 10px;
+	padding-left: 20px;
+	width: 300px;
+	height:55px ;
+	background-color: #1C1C1C;
+	color: white;
+	margin-bottom: 20px;
+	border-radius: 350px;
+	box-sizing: border-box;
+	border: none;
+
+}
+
+
+.contactmetext2 {
+	font-family: Montserrat, sans-serif;
+	font-size: 17px;
+	padding: 10px;
+	padding-left: 20px;
+	width: 655px;
+	height:200px ;
+	background-color: #1C1C1C;
+	color: white;
+	margin-bottom: 20px;
+	border-radius: 35px;
+	box-sizing: border-box;
+	border: none;
+	resize: none;
+
+}
+
+.submit {
+	font-family: Montserrat, sans-serif;
+	width: 165px;
+	height: 55px;
+	border-radius: 33px;
+	background-color: #5F2396;
+	font-size: 25px;
+	font-weight: 700;
+	color: white;
+	border: NONE;
+	transition-duration: 0.2s;
+
+}
+
+.submit:hover {
+background-color: white;
+color: #5F2396 ;
+font-weight: 700;
+}
+
+.col2 img {
+	float: right;
+	margin-top: -140px;
+
+	
+}
+
+.col2 p {
+	position: absolute;
+	font-size: 120px;
+	margin: 0;
+	font-weight: 850;
+	text-align: right;
+	margin-top: -40px;
+	right: 80px;
+}
+
+
+
+
+
+footer {
+    background-color: #1C1C1C;
+    display: flex;
+    height: 380px;
+    margin-top: 130px;
+    bottom: 0;
+    margin-left: -78px;
+    margin-right: -78px;
+    margin-bottom: -10px;
+    justify-content: center;
+   
+
+
+}
+
+.containersf {
+
+    display: flex;
+
+}
+
+
+.foot {
+    float: left;
+        width: 285px; height: 285px;
+    opacity: 100%;
+    margin: 26px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+.foot P {
+	margin-top: 60px;
+    margin-left: 0%;    
+    font-weight: 900;
+    font-size: 21px;
+    text-align: left;
+    margin-bottom: 0px;
+
+
+}
+
+.contfoot {
+	opacity: 80%;
+    height: 30px;
+    wifth : 30px;
+    margin-bottom: 10px;
+    line-height: 13px;
+    transition-duration: 0.2s;
+
+
+
+}
+
+.contfoot:hover {
+	opacity: 100%;
+}
+
+.contfoot img {
+        vertical-align: middle;
+        margin-right: 5px;
+
+}
+
+.contfoot a {
+		text-decoration: none;
+		color: white;
+}
+
+.contfoot span {
+        vertical-align: middle;
+}
+
+.contact span {
+    margin-bottom: 20px;
+}
+
+.copy {
+position: absolute;
+margin-top: -50px;
+left: 50%;
+margin-left: -45px; 
+opacity: 40%;
+ }
